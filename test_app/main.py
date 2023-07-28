@@ -12,6 +12,6 @@ class MainApp(App):
     def build(self):
         return Builder.load_file("main.kv")
 
-
+a=0
 if __name__ == "__main__":
     MainApp().run()
